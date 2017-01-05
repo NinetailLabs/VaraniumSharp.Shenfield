@@ -1,0 +1,9 @@
+source https://www.nuget.org/api/v2
+
+framework: >= net462
+
+nuget FluentAssertions ~> 4.14
+nuget Moq >= 4.5.9
+nuget NUnit ~> 3.4
+nuget SemVer.Git.MSBuild >= 1.1.0 content:once
+nuget VaraniumSharp.Initiator >= 1.5.0

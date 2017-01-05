@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{BE297CA3-B0D9-4E51-B1E0-F5C974D64A76}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaraniumSharp.Shenfield", "VaraniumSharp.Shenfield\VaraniumSharp.Shenfield.csproj", "{F19B8CB3-0F7B-4C76-932D-D1994D1CC496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaraniumSharp.Shenfield.Tests", "VaraniumSharp.Shenfield.Tests\VaraniumSharp.Shenfield.Tests.csproj", "{28A95381-7FAD-4953-A8C0-D3ED95B237C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F19B8CB3-0F7B-4C76-932D-D1994D1CC496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19B8CB3-0F7B-4C76-932D-D1994D1CC496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19B8CB3-0F7B-4C76-932D-D1994D1CC496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19B8CB3-0F7B-4C76-932D-D1994D1CC496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A95381-7FAD-4953-A8C0-D3ED95B237C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A95381-7FAD-4953-A8C0-D3ED95B237C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A95381-7FAD-4953-A8C0-D3ED95B237C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A95381-7FAD-4953-A8C0-D3ED95B237C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

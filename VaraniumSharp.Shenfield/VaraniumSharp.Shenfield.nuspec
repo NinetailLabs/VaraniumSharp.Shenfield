@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <metadata xmlns="http://schemas.microsoft.com/packaging/21.0.07/nuspec.xsd">
+      <id>VaraniumSharp.Shenfield</id>
+      <version>0.0.0</version>
+      <authors>NineTail Labs</authors>
+      <owners>NineTail Labs</owners>
+      <title>VaraniumSharp.Shenfield</title>
+      <description>WPF chassis build on VaraniumSharp.Initiator.</description>
+      <summary>WPF chassis build on VaraniumSharp.Initiator.</summary>
+      <licenseUrl>https://raw.githubusercontent.com/NinetailLabs/VaraniumSharp.Shenfield/master/LICENSE</licenseUrl>
+      <projectUrl>https://github.com/NinetailLabs/VaraniumSharp.Shenfield</projectUrl>
+      <iconUrl>https://raw.githubusercontent.com/NinetailLabs/VaraniumSharp.Shenfield/master/icon.png</iconUrl>
+      <requireLicenseAcceptance>false</requireLicenseAcceptance>
+      <copyright>Copyright (c) NineTail Labs 2016</copyright>
+      <releaseNotes>Initial Release</releaseNotes>
+      <tags>VaraniumSharp Shenfield</tags>
+
+      <dependencies>
+         <dependency id="VaraniumSharp.Initiator" version="1.5.0"/>
+      </dependencies>
+   </metadata>
+
+   <files>
+      <file src="bin/Release/VaraniumSharp.Shenfield.dll" target="lib\net462" />
+      <file src="bin/Release/VaraniumSharp.Shenfield.xml" target="lib\net462" />
+      <file src="bin/Release/VaraniumSharp.Shenfield.pdb" target="lib\net462" />
+    </files>
+</package>
