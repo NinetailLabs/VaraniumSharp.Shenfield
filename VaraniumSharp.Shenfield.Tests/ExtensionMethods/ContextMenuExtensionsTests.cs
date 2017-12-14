@@ -11,21 +11,42 @@ namespace VaraniumSharp.Shenfield.Tests.ExtensionMethods
     [Apartment(System.Threading.ApartmentState.STA)]
     public class ContextMenuExtensionsTests
     {
-        [TestCase(Key.A, ModifierKeys.Alt, "Alt + A")]
-        [TestCase(Key.C, ModifierKeys.Control | ModifierKeys.Shift, "Ctrl + Shift + C")]
-        [TestCase(Key.R, ModifierKeys.Windows, "Win + R")]
-        [TestCase(Key.NumPad0, ModifierKeys.None, "NumPad0")]
-        public void InputGestureTextIsGeneratedCorrectly(Key key, ModifierKeys modifierKeys, string expectedGestureText)
+        #region Public Methods
+
+        [Test]
+        public void CorrectCommandIsAttached()
+        {
+            // arrange
+            var menuDummy = new ContextMenu();
+            var menuItemDummy = new MenuItem();
+            var wasRaised = false;
+            var act = new Action<object, RoutedEventArgs>((s, a) =>
+            {
+                wasRaised = true;
+            });
+
+            menuDummy.AddInputBinding(menuItemDummy, act, this, null, Key.A, ModifierKeys.Control);
+            var cmd = menuDummy.InputBindings[0].Command;
+
+            // act
+            cmd.Execute(null);
+
+            // assert
+            wasRaised.Should().BeTrue();
+        }
+
+        [Test]
+        public void CorrectGestureIsAssignedToTheKey()
         {
             // arrange
             var menuDummy = new ContextMenu();
             var menuItemDummy = new MenuItem();
 
             // act
-            menuDummy.AddInputBinding(menuItemDummy, ActionDummy, this, null, key, modifierKeys);
+            menuDummy.AddInputBinding(menuItemDummy, ActionDummy, this, null, Key.A, ModifierKeys.Control);
 
             // assert
-            menuItemDummy.InputGestureText.Should().Be(expectedGestureText);
+            (menuDummy.InputBindings[0].Gesture as KeyGesture).ShouldBeEquivalentTo(new KeyGesture(Key.A, ModifierKeys.Control));
         }
 
         [Test]
@@ -68,44 +89,45 @@ namespace VaraniumSharp.Shenfield.Tests.ExtensionMethods
         }
 
         [Test]
-        public void CorrectCommandIsAttached()
+        public void InputBindingIsCorrectlyGeneratedOnSubMenuItem()
         {
             // arrange
-            var menuDummy = new ContextMenu();
+            var subItem = new MenuItem();
             var menuItemDummy = new MenuItem();
-            var wasRaised = false;
-            var act = new Action<object, RoutedEventArgs>((s, a) =>
-            {
-                wasRaised = true;
-            });
-
-            menuDummy.AddInputBinding(menuItemDummy, act, this, null, Key.A, ModifierKeys.Control);
-            var cmd = menuDummy.InputBindings[0].Command;
 
             // act
-            cmd.Execute(null);
+            subItem.AddInputBinding(menuItemDummy, ActionDummy, this, null, Key.A, ModifierKeys.Control);
 
             // assert
-            wasRaised.Should().BeTrue();
+            menuItemDummy.InputGestureText.Should().Be("Ctrl + A");
         }
 
-        [Test]
-        public void CorrectGestureIsAssignedToTheKey()
+        [TestCase(Key.A, ModifierKeys.Alt, "Alt + A")]
+        [TestCase(Key.C, ModifierKeys.Control | ModifierKeys.Shift, "Ctrl + Shift + C")]
+        [TestCase(Key.R, ModifierKeys.Windows, "Win + R")]
+        [TestCase(Key.NumPad0, ModifierKeys.None, "NumPad0")]
+        public void InputGestureTextIsGeneratedCorrectly(Key key, ModifierKeys modifierKeys, string expectedGestureText)
         {
             // arrange
             var menuDummy = new ContextMenu();
             var menuItemDummy = new MenuItem();
 
             // act
-            menuDummy.AddInputBinding(menuItemDummy, ActionDummy, this, null, Key.A, ModifierKeys.Control);
+            menuDummy.AddInputBinding(menuItemDummy, ActionDummy, this, null, key, modifierKeys);
 
             // assert
-            (menuDummy.InputBindings[0].Gesture as KeyGesture).ShouldBeEquivalentTo(new KeyGesture(Key.A, ModifierKeys.Control));
+            menuItemDummy.InputGestureText.Should().Be(expectedGestureText);
         }
+
+        #endregion
+
+        #region Private Methods
 
         private void ActionDummy(object s, RoutedEventArgs args)
         {
             // This does nothing
         }
+
+        #endregion
     }
 }
