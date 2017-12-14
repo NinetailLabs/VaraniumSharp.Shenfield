@@ -6,6 +6,6 @@
 
 Shenfield is a ring three library for VaraniumSharp which provides WPF specific functionality.
 It uses VaraniumSharp.Initiator as its base so it provides easy integration with Serilog and DryIoC.
-
+ 
 ### Icon
 [Marble](https://thenounproject.com/search/?q=sphere&i=79190) by [Balam Palma](https://thenounproject.com/balam/) from [The Noun Project](thenounproject.com)
