@@ -2,13 +2,14 @@
 #addin nuget:?package=Cake.VersionReader
 #addin nuget:?package=Cake.FileHelpers
 #addin nuget:?package=Cake.Coveralls
-#addin nuget:?package=Cake.PaketRestore
+#addin nuget:?package=Cake.Paket
 
 //Tools
 #tool nuget:?package=GitReleaseNotes
 #tool nuget:?package=NUnit.ConsoleRunner
 #tool nuget:?package=OpenCover
 #tool coveralls.io
+#tool nuget:?package=Paket
 
 //Project Variables
 var projectName = "VaraniumSharp.Shenfield";
@@ -62,7 +63,7 @@ Task ("OutputVariables")
 
 Task ("Build")
 	.Does (() => {
-		DotNetBuild (sln, c => c.Configuration = "Release");
+		MSBuild (sln, c => c.Configuration = "Release");
 		var file = MakeAbsolute(Directory(releaseFolder)) + releaseDll;
 		version = GetVersionNumber(file);
 		ciVersion = GetVersionNumberWithContinuesIntegrationNumberAppended(file, buildCounter);
@@ -158,10 +159,7 @@ Task ("PaketRestore")
 	.Does (() => {
 		StartBlock("Restoring Paket");
 		
-		PaketRestore(MakeAbsolute(Directory(paketDirectory)), new PaketRestoreSettings{
-			RetrieveBootstrapper = true,
-			RetrievePaketExecutable = true
-		});
+		PaketRestore();
 
 		EndBlock("Restoring Paket");
 	});
