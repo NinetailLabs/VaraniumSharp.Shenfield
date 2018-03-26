@@ -46,8 +46,10 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HelperClasses\StyleLoader.cs" />
     <Content Include="SemVer.MSBuild.props" />
     <Compile Include="ExtensionMethods\ContextMenuExtensions.cs" />
+    <Compile Include="Interfaces\HelperClasses\IStyleLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RelayCommand.cs" />
   </ItemGroup>
@@ -55,14 +57,6 @@
     <None Include="paket.references" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
-      <PropertyGroup>
-        <__paket__SemVer_Git_MSBuild_targets>SemVer.Git.MSBuild</__paket__SemVer_Git_MSBuild_targets>
-        <__paket__SemVer_MSBuild_targets>SemVer.MSBuild</__paket__SemVer_MSBuild_targets>
-      </PropertyGroup>
-    </When>
-  </Choose>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
@@ -71,7 +65,7 @@
   </Target>
   -->
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="DryIoc">
           <HintPath>..\packages\DryIoc.dll\lib\net45\DryIoc.dll</HintPath>
@@ -82,7 +76,7 @@
     </When>
   </Choose>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="Newtonsoft.Json">
           <HintPath>..\packages\Newtonsoft.Json\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -93,7 +87,7 @@
     </When>
   </Choose>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="Serilog">
           <HintPath>..\packages\Serilog\lib\net46\Serilog.dll</HintPath>
@@ -104,7 +98,7 @@
     </When>
   </Choose>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="Serilog.Formatting.Compact">
           <HintPath>..\packages\Serilog.Formatting.Compact\lib\net45\Serilog.Formatting.Compact.dll</HintPath>
@@ -115,7 +109,7 @@
     </When>
   </Choose>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="Serilog.Sinks.ColoredConsole">
           <HintPath>..\packages\Serilog.Sinks.ColoredConsole\lib\net45\Serilog.Sinks.ColoredConsole.dll</HintPath>
@@ -126,7 +120,7 @@
     </When>
   </Choose>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="Serilog.Sinks.File">
           <HintPath>..\packages\Serilog.Sinks.File\lib\net45\Serilog.Sinks.File.dll</HintPath>
@@ -137,7 +131,7 @@
     </When>
   </Choose>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="Serilog.Sinks.PeriodicBatching">
           <HintPath>..\packages\Serilog.Sinks.PeriodicBatching\lib\net45\Serilog.Sinks.PeriodicBatching.dll</HintPath>
@@ -148,7 +142,7 @@
     </When>
   </Choose>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="Serilog.Sinks.RollingFile">
           <HintPath>..\packages\Serilog.Sinks.RollingFile\lib\net45\Serilog.Sinks.RollingFile.dll</HintPath>
@@ -159,7 +153,7 @@
     </When>
   </Choose>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="Serilog.Sinks.Seq">
           <HintPath>..\packages\Serilog.Sinks.Seq\lib\net45\Serilog.Sinks.Seq.dll</HintPath>
@@ -170,7 +164,7 @@
     </When>
   </Choose>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="Serilog.Sinks.Splunk">
           <HintPath>..\packages\Serilog.Sinks.Splunk\lib\net45\Serilog.Sinks.Splunk.dll</HintPath>
@@ -181,7 +175,7 @@
     </When>
   </Choose>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="Splunk.Logging.Common">
           <HintPath>..\packages\Splunk.Logging.Common\lib\net45\Splunk.Logging.Common.dll</HintPath>
@@ -192,7 +186,7 @@
     </When>
   </Choose>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="VaraniumSharp">
           <HintPath>..\packages\VaraniumSharp\lib\net462\VaraniumSharp.dll</HintPath>
@@ -203,7 +197,7 @@
     </When>
   </Choose>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
       <ItemGroup>
         <Reference Include="VaraniumSharp.Initiator">
           <HintPath>..\packages\VaraniumSharp.Initiator\lib\net462\VaraniumSharp.Initiator.dll</HintPath>
@@ -213,5 +207,5 @@
       </ItemGroup>
     </When>
   </Choose>
-  <Import Project="..\packages\SemVer.Git.MSBuild\build\$(__paket__SemVer_Git_MSBuild_targets).targets" Condition="Exists('..\packages\SemVer.Git.MSBuild\build\$(__paket__SemVer_Git_MSBuild_targets).targets')" Label="Paket" />
+  <Import Project="..\packages\SemVer.Git.MSBuild\build\SemVer.Git.MSBuild.targets" Condition="Exists('..\packages\SemVer.Git.MSBuild\build\SemVer.Git.MSBuild.targets')" Label="Paket" />
 </Project>
