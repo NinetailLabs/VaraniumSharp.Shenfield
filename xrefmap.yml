@@ -1,0 +1,235 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: VaraniumSharp.Shenfield
+  name: VaraniumSharp.Shenfield
+  href: api/VaraniumSharp.Shenfield.html
+  commentId: N:VaraniumSharp.Shenfield
+  fullName: VaraniumSharp.Shenfield
+  nameWithType: VaraniumSharp.Shenfield
+- uid: VaraniumSharp.Shenfield.Converters
+  name: VaraniumSharp.Shenfield.Converters
+  href: api/VaraniumSharp.Shenfield.Converters.html
+  commentId: N:VaraniumSharp.Shenfield.Converters
+  fullName: VaraniumSharp.Shenfield.Converters
+  nameWithType: VaraniumSharp.Shenfield.Converters
+- uid: VaraniumSharp.Shenfield.Converters.DictionaryIntValueExtractionConverter
+  name: DictionaryIntValueExtractionConverter
+  href: api/VaraniumSharp.Shenfield.Converters.DictionaryIntValueExtractionConverter.html
+  commentId: T:VaraniumSharp.Shenfield.Converters.DictionaryIntValueExtractionConverter
+  fullName: VaraniumSharp.Shenfield.Converters.DictionaryIntValueExtractionConverter
+  nameWithType: DictionaryIntValueExtractionConverter
+- uid: VaraniumSharp.Shenfield.Converters.DictionaryStringValueExtractionConverter
+  name: DictionaryStringValueExtractionConverter
+  href: api/VaraniumSharp.Shenfield.Converters.DictionaryStringValueExtractionConverter.html
+  commentId: T:VaraniumSharp.Shenfield.Converters.DictionaryStringValueExtractionConverter
+  fullName: VaraniumSharp.Shenfield.Converters.DictionaryStringValueExtractionConverter
+  nameWithType: DictionaryStringValueExtractionConverter
+- uid: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase`1
+  name: DictionaryValueExtractionConverterBase<T>
+  href: api/VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase-1.html
+  commentId: T:VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase`1
+  name.vb: DictionaryValueExtractionConverterBase(Of T)
+  fullName: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase<T>
+  fullName.vb: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase(Of T)
+  nameWithType: DictionaryValueExtractionConverterBase<T>
+  nameWithType.vb: DictionaryValueExtractionConverterBase(Of T)
+- uid: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase`1.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)
+  name: Convert(Object[], Type, Object, CultureInfo)
+  href: api/VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase-1.html#VaraniumSharp_Shenfield_Converters_DictionaryValueExtractionConverterBase_1_Convert_System_Object___System_Type_System_Object_System_Globalization_CultureInfo_
+  commentId: M:VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase`1.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)
+  name.vb: Convert(Object(), Type, Object, CultureInfo)
+  fullName: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase<T>.Convert(System.Object[], System.Type, System.Object, System.Globalization.CultureInfo)
+  fullName.vb: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase(Of T).Convert(System.Object(), System.Type, System.Object, System.Globalization.CultureInfo)
+  nameWithType: DictionaryValueExtractionConverterBase<T>.Convert(Object[], Type, Object, CultureInfo)
+  nameWithType.vb: DictionaryValueExtractionConverterBase(Of T).Convert(Object(), Type, Object, CultureInfo)
+- uid: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase`1.Convert*
+  name: Convert
+  href: api/VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase-1.html#VaraniumSharp_Shenfield_Converters_DictionaryValueExtractionConverterBase_1_Convert_
+  commentId: Overload:VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase`1.Convert
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase<T>.Convert
+  fullName.vb: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase(Of T).Convert
+  nameWithType: DictionaryValueExtractionConverterBase<T>.Convert
+  nameWithType.vb: DictionaryValueExtractionConverterBase(Of T).Convert
+- uid: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase`1.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)
+  name: ConvertBack(Object, Type[], Object, CultureInfo)
+  href: api/VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase-1.html#VaraniumSharp_Shenfield_Converters_DictionaryValueExtractionConverterBase_1_ConvertBack_System_Object_System_Type___System_Object_System_Globalization_CultureInfo_
+  commentId: M:VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase`1.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)
+  name.vb: ConvertBack(Object, Type(), Object, CultureInfo)
+  fullName: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase<T>.ConvertBack(System.Object, System.Type[], System.Object, System.Globalization.CultureInfo)
+  fullName.vb: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase(Of T).ConvertBack(System.Object, System.Type(), System.Object, System.Globalization.CultureInfo)
+  nameWithType: DictionaryValueExtractionConverterBase<T>.ConvertBack(Object, Type[], Object, CultureInfo)
+  nameWithType.vb: DictionaryValueExtractionConverterBase(Of T).ConvertBack(Object, Type(), Object, CultureInfo)
+- uid: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase`1.ConvertBack*
+  name: ConvertBack
+  href: api/VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase-1.html#VaraniumSharp_Shenfield_Converters_DictionaryValueExtractionConverterBase_1_ConvertBack_
+  commentId: Overload:VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase`1.ConvertBack
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase<T>.ConvertBack
+  fullName.vb: VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase(Of T).ConvertBack
+  nameWithType: DictionaryValueExtractionConverterBase<T>.ConvertBack
+  nameWithType.vb: DictionaryValueExtractionConverterBase(Of T).ConvertBack
+- uid: VaraniumSharp.Shenfield.ExtensionMethods
+  name: VaraniumSharp.Shenfield.ExtensionMethods
+  href: api/VaraniumSharp.Shenfield.ExtensionMethods.html
+  commentId: N:VaraniumSharp.Shenfield.ExtensionMethods
+  fullName: VaraniumSharp.Shenfield.ExtensionMethods
+  nameWithType: VaraniumSharp.Shenfield.ExtensionMethods
+- uid: VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions
+  name: ContextMenuExtensions
+  href: api/VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.html
+  commentId: T:VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions
+  fullName: VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions
+  nameWithType: ContextMenuExtensions
+- uid: VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.AddInputBinding(System.Windows.Controls.ContextMenu,System.Windows.Controls.MenuItem,System.Action{System.Object,System.Windows.RoutedEventArgs},System.Object,System.Windows.RoutedEventArgs,System.Windows.Input.Key,System.Windows.Input.ModifierKeys)
+  name: AddInputBinding(ContextMenu, MenuItem, Action<Object, RoutedEventArgs>, Object, RoutedEventArgs, Key, ModifierKeys)
+  href: api/VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.html#VaraniumSharp_Shenfield_ExtensionMethods_ContextMenuExtensions_AddInputBinding_System_Windows_Controls_ContextMenu_System_Windows_Controls_MenuItem_System_Action_System_Object_System_Windows_RoutedEventArgs__System_Object_System_Windows_RoutedEventArgs_System_Windows_Input_Key_System_Windows_Input_ModifierKeys_
+  commentId: M:VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.AddInputBinding(System.Windows.Controls.ContextMenu,System.Windows.Controls.MenuItem,System.Action{System.Object,System.Windows.RoutedEventArgs},System.Object,System.Windows.RoutedEventArgs,System.Windows.Input.Key,System.Windows.Input.ModifierKeys)
+  name.vb: AddInputBinding(ContextMenu, MenuItem, Action(Of Object, RoutedEventArgs), Object, RoutedEventArgs, Key, ModifierKeys)
+  fullName: VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.AddInputBinding(System.Windows.Controls.ContextMenu, System.Windows.Controls.MenuItem, System.Action<System.Object, System.Windows.RoutedEventArgs>, System.Object, System.Windows.RoutedEventArgs, System.Windows.Input.Key, System.Windows.Input.ModifierKeys)
+  fullName.vb: VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.AddInputBinding(System.Windows.Controls.ContextMenu, System.Windows.Controls.MenuItem, System.Action(Of System.Object, System.Windows.RoutedEventArgs), System.Object, System.Windows.RoutedEventArgs, System.Windows.Input.Key, System.Windows.Input.ModifierKeys)
+  nameWithType: ContextMenuExtensions.AddInputBinding(ContextMenu, MenuItem, Action<Object, RoutedEventArgs>, Object, RoutedEventArgs, Key, ModifierKeys)
+  nameWithType.vb: ContextMenuExtensions.AddInputBinding(ContextMenu, MenuItem, Action(Of Object, RoutedEventArgs), Object, RoutedEventArgs, Key, ModifierKeys)
+- uid: VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.AddInputBinding(System.Windows.Controls.MenuItem,System.Windows.Controls.MenuItem,System.Action{System.Object,System.Windows.RoutedEventArgs},System.Object,System.Windows.RoutedEventArgs,System.Windows.Input.Key,System.Windows.Input.ModifierKeys)
+  name: AddInputBinding(MenuItem, MenuItem, Action<Object, RoutedEventArgs>, Object, RoutedEventArgs, Key, ModifierKeys)
+  href: api/VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.html#VaraniumSharp_Shenfield_ExtensionMethods_ContextMenuExtensions_AddInputBinding_System_Windows_Controls_MenuItem_System_Windows_Controls_MenuItem_System_Action_System_Object_System_Windows_RoutedEventArgs__System_Object_System_Windows_RoutedEventArgs_System_Windows_Input_Key_System_Windows_Input_ModifierKeys_
+  commentId: M:VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.AddInputBinding(System.Windows.Controls.MenuItem,System.Windows.Controls.MenuItem,System.Action{System.Object,System.Windows.RoutedEventArgs},System.Object,System.Windows.RoutedEventArgs,System.Windows.Input.Key,System.Windows.Input.ModifierKeys)
+  name.vb: AddInputBinding(MenuItem, MenuItem, Action(Of Object, RoutedEventArgs), Object, RoutedEventArgs, Key, ModifierKeys)
+  fullName: VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.AddInputBinding(System.Windows.Controls.MenuItem, System.Windows.Controls.MenuItem, System.Action<System.Object, System.Windows.RoutedEventArgs>, System.Object, System.Windows.RoutedEventArgs, System.Windows.Input.Key, System.Windows.Input.ModifierKeys)
+  fullName.vb: VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.AddInputBinding(System.Windows.Controls.MenuItem, System.Windows.Controls.MenuItem, System.Action(Of System.Object, System.Windows.RoutedEventArgs), System.Object, System.Windows.RoutedEventArgs, System.Windows.Input.Key, System.Windows.Input.ModifierKeys)
+  nameWithType: ContextMenuExtensions.AddInputBinding(MenuItem, MenuItem, Action<Object, RoutedEventArgs>, Object, RoutedEventArgs, Key, ModifierKeys)
+  nameWithType.vb: ContextMenuExtensions.AddInputBinding(MenuItem, MenuItem, Action(Of Object, RoutedEventArgs), Object, RoutedEventArgs, Key, ModifierKeys)
+- uid: VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.AddInputBinding*
+  name: AddInputBinding
+  href: api/VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.html#VaraniumSharp_Shenfield_ExtensionMethods_ContextMenuExtensions_AddInputBinding_
+  commentId: Overload:VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.AddInputBinding
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.AddInputBinding
+  nameWithType: ContextMenuExtensions.AddInputBinding
+- uid: VaraniumSharp.Shenfield.HelperClasses
+  name: VaraniumSharp.Shenfield.HelperClasses
+  href: api/VaraniumSharp.Shenfield.HelperClasses.html
+  commentId: N:VaraniumSharp.Shenfield.HelperClasses
+  fullName: VaraniumSharp.Shenfield.HelperClasses
+  nameWithType: VaraniumSharp.Shenfield.HelperClasses
+- uid: VaraniumSharp.Shenfield.HelperClasses.StyleLoader
+  name: StyleLoader
+  href: api/VaraniumSharp.Shenfield.HelperClasses.StyleLoader.html
+  commentId: T:VaraniumSharp.Shenfield.HelperClasses.StyleLoader
+  fullName: VaraniumSharp.Shenfield.HelperClasses.StyleLoader
+  nameWithType: StyleLoader
+- uid: VaraniumSharp.Shenfield.HelperClasses.StyleLoader.#ctor
+  name: StyleLoader()
+  href: api/VaraniumSharp.Shenfield.HelperClasses.StyleLoader.html#VaraniumSharp_Shenfield_HelperClasses_StyleLoader__ctor
+  commentId: M:VaraniumSharp.Shenfield.HelperClasses.StyleLoader.#ctor
+  fullName: VaraniumSharp.Shenfield.HelperClasses.StyleLoader.StyleLoader()
+  nameWithType: StyleLoader.StyleLoader()
+- uid: VaraniumSharp.Shenfield.HelperClasses.StyleLoader.#ctor*
+  name: StyleLoader
+  href: api/VaraniumSharp.Shenfield.HelperClasses.StyleLoader.html#VaraniumSharp_Shenfield_HelperClasses_StyleLoader__ctor_
+  commentId: Overload:VaraniumSharp.Shenfield.HelperClasses.StyleLoader.#ctor
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.HelperClasses.StyleLoader.StyleLoader
+  nameWithType: StyleLoader.StyleLoader
+- uid: VaraniumSharp.Shenfield.HelperClasses.StyleLoader.LoadStyle(System.String)
+  name: LoadStyle(String)
+  href: api/VaraniumSharp.Shenfield.HelperClasses.StyleLoader.html#VaraniumSharp_Shenfield_HelperClasses_StyleLoader_LoadStyle_System_String_
+  commentId: M:VaraniumSharp.Shenfield.HelperClasses.StyleLoader.LoadStyle(System.String)
+  fullName: VaraniumSharp.Shenfield.HelperClasses.StyleLoader.LoadStyle(System.String)
+  nameWithType: StyleLoader.LoadStyle(String)
+- uid: VaraniumSharp.Shenfield.HelperClasses.StyleLoader.LoadStyle*
+  name: LoadStyle
+  href: api/VaraniumSharp.Shenfield.HelperClasses.StyleLoader.html#VaraniumSharp_Shenfield_HelperClasses_StyleLoader_LoadStyle_
+  commentId: Overload:VaraniumSharp.Shenfield.HelperClasses.StyleLoader.LoadStyle
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.HelperClasses.StyleLoader.LoadStyle
+  nameWithType: StyleLoader.LoadStyle
+- uid: VaraniumSharp.Shenfield.Interfaces.HelperClasses
+  name: VaraniumSharp.Shenfield.Interfaces.HelperClasses
+  href: api/VaraniumSharp.Shenfield.Interfaces.HelperClasses.html
+  commentId: N:VaraniumSharp.Shenfield.Interfaces.HelperClasses
+  fullName: VaraniumSharp.Shenfield.Interfaces.HelperClasses
+  nameWithType: VaraniumSharp.Shenfield.Interfaces.HelperClasses
+- uid: VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader
+  name: IStyleLoader
+  href: api/VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader.html
+  commentId: T:VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader
+  fullName: VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader
+  nameWithType: IStyleLoader
+- uid: VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader.LoadStyle(System.String)
+  name: LoadStyle(String)
+  href: api/VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader.html#VaraniumSharp_Shenfield_Interfaces_HelperClasses_IStyleLoader_LoadStyle_System_String_
+  commentId: M:VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader.LoadStyle(System.String)
+  fullName: VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader.LoadStyle(System.String)
+  nameWithType: IStyleLoader.LoadStyle(String)
+- uid: VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader.LoadStyle*
+  name: LoadStyle
+  href: api/VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader.html#VaraniumSharp_Shenfield_Interfaces_HelperClasses_IStyleLoader_LoadStyle_
+  commentId: Overload:VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader.LoadStyle
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader.LoadStyle
+  nameWithType: IStyleLoader.LoadStyle
+- uid: VaraniumSharp.Shenfield.RelayCommand
+  name: RelayCommand
+  href: api/VaraniumSharp.Shenfield.RelayCommand.html
+  commentId: T:VaraniumSharp.Shenfield.RelayCommand
+  fullName: VaraniumSharp.Shenfield.RelayCommand
+  nameWithType: RelayCommand
+- uid: VaraniumSharp.Shenfield.RelayCommand.#ctor(System.Action{System.Object})
+  name: RelayCommand(Action<Object>)
+  href: api/VaraniumSharp.Shenfield.RelayCommand.html#VaraniumSharp_Shenfield_RelayCommand__ctor_System_Action_System_Object__
+  commentId: M:VaraniumSharp.Shenfield.RelayCommand.#ctor(System.Action{System.Object})
+  name.vb: RelayCommand(Action(Of Object))
+  fullName: VaraniumSharp.Shenfield.RelayCommand.RelayCommand(System.Action<System.Object>)
+  fullName.vb: VaraniumSharp.Shenfield.RelayCommand.RelayCommand(System.Action(Of System.Object))
+  nameWithType: RelayCommand.RelayCommand(Action<Object>)
+  nameWithType.vb: RelayCommand.RelayCommand(Action(Of Object))
+- uid: VaraniumSharp.Shenfield.RelayCommand.#ctor(System.Action{System.Object},System.Predicate{System.Object})
+  name: RelayCommand(Action<Object>, Predicate<Object>)
+  href: api/VaraniumSharp.Shenfield.RelayCommand.html#VaraniumSharp_Shenfield_RelayCommand__ctor_System_Action_System_Object__System_Predicate_System_Object__
+  commentId: M:VaraniumSharp.Shenfield.RelayCommand.#ctor(System.Action{System.Object},System.Predicate{System.Object})
+  name.vb: RelayCommand(Action(Of Object), Predicate(Of Object))
+  fullName: VaraniumSharp.Shenfield.RelayCommand.RelayCommand(System.Action<System.Object>, System.Predicate<System.Object>)
+  fullName.vb: VaraniumSharp.Shenfield.RelayCommand.RelayCommand(System.Action(Of System.Object), System.Predicate(Of System.Object))
+  nameWithType: RelayCommand.RelayCommand(Action<Object>, Predicate<Object>)
+  nameWithType.vb: RelayCommand.RelayCommand(Action(Of Object), Predicate(Of Object))
+- uid: VaraniumSharp.Shenfield.RelayCommand.#ctor*
+  name: RelayCommand
+  href: api/VaraniumSharp.Shenfield.RelayCommand.html#VaraniumSharp_Shenfield_RelayCommand__ctor_
+  commentId: Overload:VaraniumSharp.Shenfield.RelayCommand.#ctor
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.RelayCommand.RelayCommand
+  nameWithType: RelayCommand.RelayCommand
+- uid: VaraniumSharp.Shenfield.RelayCommand.CanExecute(System.Object)
+  name: CanExecute(Object)
+  href: api/VaraniumSharp.Shenfield.RelayCommand.html#VaraniumSharp_Shenfield_RelayCommand_CanExecute_System_Object_
+  commentId: M:VaraniumSharp.Shenfield.RelayCommand.CanExecute(System.Object)
+  fullName: VaraniumSharp.Shenfield.RelayCommand.CanExecute(System.Object)
+  nameWithType: RelayCommand.CanExecute(Object)
+- uid: VaraniumSharp.Shenfield.RelayCommand.CanExecute*
+  name: CanExecute
+  href: api/VaraniumSharp.Shenfield.RelayCommand.html#VaraniumSharp_Shenfield_RelayCommand_CanExecute_
+  commentId: Overload:VaraniumSharp.Shenfield.RelayCommand.CanExecute
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.RelayCommand.CanExecute
+  nameWithType: RelayCommand.CanExecute
+- uid: VaraniumSharp.Shenfield.RelayCommand.CanExecuteChanged
+  name: CanExecuteChanged
+  href: api/VaraniumSharp.Shenfield.RelayCommand.html#VaraniumSharp_Shenfield_RelayCommand_CanExecuteChanged
+  commentId: E:VaraniumSharp.Shenfield.RelayCommand.CanExecuteChanged
+  fullName: VaraniumSharp.Shenfield.RelayCommand.CanExecuteChanged
+  nameWithType: RelayCommand.CanExecuteChanged
+- uid: VaraniumSharp.Shenfield.RelayCommand.Execute(System.Object)
+  name: Execute(Object)
+  href: api/VaraniumSharp.Shenfield.RelayCommand.html#VaraniumSharp_Shenfield_RelayCommand_Execute_System_Object_
+  commentId: M:VaraniumSharp.Shenfield.RelayCommand.Execute(System.Object)
+  fullName: VaraniumSharp.Shenfield.RelayCommand.Execute(System.Object)
+  nameWithType: RelayCommand.Execute(Object)
+- uid: VaraniumSharp.Shenfield.RelayCommand.Execute*
+  name: Execute
+  href: api/VaraniumSharp.Shenfield.RelayCommand.html#VaraniumSharp_Shenfield_RelayCommand_Execute_
+  commentId: Overload:VaraniumSharp.Shenfield.RelayCommand.Execute
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.RelayCommand.Execute
+  nameWithType: RelayCommand.Execute
