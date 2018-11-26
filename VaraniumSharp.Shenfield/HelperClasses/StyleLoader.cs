@@ -1,5 +1,5 @@
-﻿using Serilog;
-using System.Windows;
+﻿using System.Windows;
+using Microsoft.Extensions.Logging;
 using VaraniumSharp.Attributes;
 using VaraniumSharp.Shenfield.Interfaces.HelperClasses;
 
@@ -16,7 +16,7 @@ namespace VaraniumSharp.Shenfield.HelperClasses
         /// </summary>
         public StyleLoader()
         {
-            _logger = Log.Logger.ForContext("Module", nameof(StyleLoader));
+            _logger = Logging.StaticLogger.GetLogger<StyleLoader>();
         }
 
         #endregion
@@ -33,7 +33,7 @@ namespace VaraniumSharp.Shenfield.HelperClasses
             }
             catch (ResourceReferenceKeyNotFoundException)
             {
-                _logger.Verbose("Resource {StyleName} could not be found", styleName);
+                _logger.LogWarning("Resource {StyleName} could not be found", styleName);
                 return null;
             }
         }
@@ -43,7 +43,7 @@ namespace VaraniumSharp.Shenfield.HelperClasses
         #region Variables
 
         /// <summary>
-        /// Serilog Logger instance
+        /// Logger instance
         /// </summary>
         private readonly ILogger _logger;
 

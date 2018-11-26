@@ -1,0 +1,4 @@
+apiRules:
+- exclude:
+    uidRegex: ^VaraniumSharp.Shenfield\.Tests
+    type: Type
