@@ -47,6 +47,9 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converters\DictionaryIntValueExtractionConverter.cs" />
+    <Compile Include="Converters\DictionaryStringValueExtractionConverter.cs" />
+    <Compile Include="Converters\DictionaryValueExtractionConverterBase.cs" />
     <Compile Include="HelperClasses\StyleLoader.cs" />
     <Content Include="SemVer.MSBuild.props" />
     <Compile Include="ExtensionMethods\ContextMenuExtensions.cs" />
