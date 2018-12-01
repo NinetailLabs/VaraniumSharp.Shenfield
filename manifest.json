@@ -5,11 +5,35 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html",
+          "hash": "IKXs2DtsrXiSzgDRn9tmQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VaraniumSharp.Shenfield.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VaraniumSharp.Shenfield.Collections.html",
+          "hash": "F8miHs/1EKOahTHkzP5ECg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VaraniumSharp.Shenfield.Converters.DictionaryIntValueExtractionConverter.yml",
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.Converters.DictionaryIntValueExtractionConverter.html",
-          "hash": "yOBkWQDxGFRSrdtUP/gWZg=="
+          "hash": "9CHAPabHmCvKtQAjF3+15Q=="
         }
       },
       "is_incremental": false,
@@ -21,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.Converters.DictionaryStringValueExtractionConverter.html",
-          "hash": "VDwEtPE5FMjZzCIHUUZU8A=="
+          "hash": "xko1RjA9Spp5onbnPycRog=="
         }
       },
       "is_incremental": false,
@@ -45,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.Converters.html",
-          "hash": "IOXYkABLUpJmHJx9EdELLQ=="
+          "hash": "b8c5oKCqYd2l7yecpuA92w=="
         }
       },
       "is_incremental": false,
@@ -165,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "HvPUEtD+/MmDTZM2Fp86jQ=="
+          "hash": "0o/bTS9UPNskMSX0ZuqhCw=="
         }
       },
       "is_incremental": false,
@@ -247,6 +271,10 @@
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
@@ -254,10 +282,6 @@
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
           "incrementalPhase": "build"
         }
       }

@@ -7,6 +7,326 @@ references:
   commentId: N:VaraniumSharp.Shenfield
   fullName: VaraniumSharp.Shenfield
   nameWithType: VaraniumSharp.Shenfield
+- uid: VaraniumSharp.Shenfield.Collections
+  name: VaraniumSharp.Shenfield.Collections
+  href: api/VaraniumSharp.Shenfield.Collections.html
+  commentId: N:VaraniumSharp.Shenfield.Collections
+  fullName: VaraniumSharp.Shenfield.Collections
+  nameWithType: VaraniumSharp.Shenfield.Collections
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2
+  name: ObservableDictionary<TKey, TValue>
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html
+  commentId: T:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2
+  name.vb: ObservableDictionary(Of TKey, TValue)
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue)
+  nameWithType: ObservableDictionary<TKey, TValue>
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue)
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.#ctor
+  name: ObservableDictionary()
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2__ctor
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.#ctor
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.ObservableDictionary()
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).ObservableDictionary()
+  nameWithType: ObservableDictionary<TKey, TValue>.ObservableDictionary()
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).ObservableDictionary()
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.#ctor*
+  name: ObservableDictionary
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2__ctor_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.#ctor
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.ObservableDictionary
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).ObservableDictionary
+  nameWithType: ObservableDictionary<TKey, TValue>.ObservableDictionary
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).ObservableDictionary
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Add(`0,`1)
+  name: Add(TKey, TValue)
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Add__0__1_
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Add(`0,`1)
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Add(TKey, TValue)
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Add(TKey, TValue)
+  nameWithType: ObservableDictionary<TKey, TValue>.Add(TKey, TValue)
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Add(TKey, TValue)
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Add(KeyValuePair<TKey, TValue>)
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Add_System_Collections_Generic_KeyValuePair__0__1__
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  name.vb: Add(KeyValuePair(Of TKey, TValue))
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Add(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Add(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  nameWithType: ObservableDictionary<TKey, TValue>.Add(KeyValuePair<TKey, TValue>)
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Add(KeyValuePair(Of TKey, TValue))
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Add*
+  name: Add
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Add_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Add
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Add
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Add
+  nameWithType: ObservableDictionary<TKey, TValue>.Add
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Add
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Clear
+  name: Clear()
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Clear
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Clear
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Clear()
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Clear()
+  nameWithType: ObservableDictionary<TKey, TValue>.Clear()
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Clear()
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Clear*
+  name: Clear
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Clear_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Clear
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Clear
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Clear
+  nameWithType: ObservableDictionary<TKey, TValue>.Clear
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Clear
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.CollectionChanged
+  name: CollectionChanged
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_CollectionChanged
+  commentId: E:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.CollectionChanged
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.CollectionChanged
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).CollectionChanged
+  nameWithType: ObservableDictionary<TKey, TValue>.CollectionChanged
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).CollectionChanged
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Contains(KeyValuePair<TKey, TValue>)
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Contains_System_Collections_Generic_KeyValuePair__0__1__
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  name.vb: Contains(KeyValuePair(Of TKey, TValue))
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Contains(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Contains(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  nameWithType: ObservableDictionary<TKey, TValue>.Contains(KeyValuePair<TKey, TValue>)
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Contains(KeyValuePair(Of TKey, TValue))
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Contains*
+  name: Contains
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Contains_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Contains
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Contains
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Contains
+  nameWithType: ObservableDictionary<TKey, TValue>.Contains
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Contains
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.ContainsKey(`0)
+  name: ContainsKey(TKey)
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_ContainsKey__0_
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.ContainsKey(`0)
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.ContainsKey(TKey)
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).ContainsKey(TKey)
+  nameWithType: ObservableDictionary<TKey, TValue>.ContainsKey(TKey)
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).ContainsKey(TKey)
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.ContainsKey*
+  name: ContainsKey
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_ContainsKey_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.ContainsKey
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.ContainsKey
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).ContainsKey
+  nameWithType: ObservableDictionary<TKey, TValue>.ContainsKey
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).ContainsKey
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  name: CopyTo(KeyValuePair<TKey, TValue>[], Int32)
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  name.vb: CopyTo(KeyValuePair(Of TKey, TValue)(), Int32)
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[], System.Int32)
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).CopyTo(System.Collections.Generic.KeyValuePair(Of TKey, TValue)(), System.Int32)
+  nameWithType: ObservableDictionary<TKey, TValue>.CopyTo(KeyValuePair<TKey, TValue>[], Int32)
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).CopyTo(KeyValuePair(Of TKey, TValue)(), Int32)
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.CopyTo*
+  name: CopyTo
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_CopyTo_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.CopyTo
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.CopyTo
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).CopyTo
+  nameWithType: ObservableDictionary<TKey, TValue>.CopyTo
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).CopyTo
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Count
+  name: Count
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Count
+  commentId: P:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Count
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Count
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Count
+  nameWithType: ObservableDictionary<TKey, TValue>.Count
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Count
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Count*
+  name: Count
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Count_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Count
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Count
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Count
+  nameWithType: ObservableDictionary<TKey, TValue>.Count
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Count
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.GetEnumerator
+  name: GetEnumerator()
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_GetEnumerator
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.GetEnumerator
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.GetEnumerator()
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).GetEnumerator()
+  nameWithType: ObservableDictionary<TKey, TValue>.GetEnumerator()
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).GetEnumerator()
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.GetEnumerator*
+  name: GetEnumerator
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_GetEnumerator_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.GetEnumerator
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.GetEnumerator
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).GetEnumerator
+  nameWithType: ObservableDictionary<TKey, TValue>.GetEnumerator
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).GetEnumerator
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.IsReadOnly
+  name: IsReadOnly
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_IsReadOnly
+  commentId: P:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.IsReadOnly
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.IsReadOnly
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).IsReadOnly
+  nameWithType: ObservableDictionary<TKey, TValue>.IsReadOnly
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).IsReadOnly
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.IsReadOnly*
+  name: IsReadOnly
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_IsReadOnly_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.IsReadOnly
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.IsReadOnly
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).IsReadOnly
+  nameWithType: ObservableDictionary<TKey, TValue>.IsReadOnly
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).IsReadOnly
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Item(`0)
+  name: Item[TKey]
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Item__0_
+  commentId: P:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Item(`0)
+  name.vb: Item(TKey)
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Item[TKey]
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Item(TKey)
+  nameWithType: ObservableDictionary<TKey, TValue>.Item[TKey]
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Item(TKey)
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Item*
+  name: Item
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Item_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Item
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Item
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Item
+  nameWithType: ObservableDictionary<TKey, TValue>.Item
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Item
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Keys
+  name: Keys
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Keys
+  commentId: P:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Keys
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Keys
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Keys
+  nameWithType: ObservableDictionary<TKey, TValue>.Keys
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Keys
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Keys*
+  name: Keys
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Keys_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Keys
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Keys
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Keys
+  nameWithType: ObservableDictionary<TKey, TValue>.Keys
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Keys
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Remove(`0)
+  name: Remove(TKey)
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Remove__0_
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Remove(`0)
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Remove(TKey)
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Remove(TKey)
+  nameWithType: ObservableDictionary<TKey, TValue>.Remove(TKey)
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Remove(TKey)
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Remove(KeyValuePair<TKey, TValue>)
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Remove_System_Collections_Generic_KeyValuePair__0__1__
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  name.vb: Remove(KeyValuePair(Of TKey, TValue))
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Remove(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Remove(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  nameWithType: ObservableDictionary<TKey, TValue>.Remove(KeyValuePair<TKey, TValue>)
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Remove(KeyValuePair(Of TKey, TValue))
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Remove*
+  name: Remove
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Remove_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Remove
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Remove
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Remove
+  nameWithType: ObservableDictionary<TKey, TValue>.Remove
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Remove
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: ObservableDictionary<TKey, TValue>.IEnumerable.GetEnumerator()
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).System.Collections.IEnumerable.GetEnumerator()
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).System.Collections.IEnumerable.GetEnumerator
+  nameWithType: ObservableDictionary<TKey, TValue>.IEnumerable.GetEnumerator
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).System.Collections.IEnumerable.GetEnumerator
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.TryGetValue(`0,`1@)
+  name: TryGetValue(TKey, out TValue)
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_TryGetValue__0__1__
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.TryGetValue(`0,`1@)
+  name.vb: TryGetValue(TKey, ByRef TValue)
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).TryGetValue(TKey, ByRef TValue)
+  nameWithType: ObservableDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).TryGetValue(TKey, ByRef TValue)
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.TryGetValue*
+  name: TryGetValue
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_TryGetValue_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.TryGetValue
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.TryGetValue
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).TryGetValue
+  nameWithType: ObservableDictionary<TKey, TValue>.TryGetValue
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).TryGetValue
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.UpdateDictionary(System.Collections.Generic.IDictionary{`0,`1})
+  name: UpdateDictionary(IDictionary<TKey, TValue>)
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_UpdateDictionary_System_Collections_Generic_IDictionary__0__1__
+  commentId: M:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.UpdateDictionary(System.Collections.Generic.IDictionary{`0,`1})
+  name.vb: UpdateDictionary(IDictionary(Of TKey, TValue))
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.UpdateDictionary(System.Collections.Generic.IDictionary<TKey, TValue>)
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).UpdateDictionary(System.Collections.Generic.IDictionary(Of TKey, TValue))
+  nameWithType: ObservableDictionary<TKey, TValue>.UpdateDictionary(IDictionary<TKey, TValue>)
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).UpdateDictionary(IDictionary(Of TKey, TValue))
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.UpdateDictionary*
+  name: UpdateDictionary
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_UpdateDictionary_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.UpdateDictionary
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.UpdateDictionary
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).UpdateDictionary
+  nameWithType: ObservableDictionary<TKey, TValue>.UpdateDictionary
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).UpdateDictionary
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Values
+  name: Values
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Values
+  commentId: P:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Values
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Values
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Values
+  nameWithType: ObservableDictionary<TKey, TValue>.Values
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Values
+- uid: VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Values*
+  name: Values
+  href: api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html#VaraniumSharp_Shenfield_Collections_ObservableDictionary_2_Values_
+  commentId: Overload:VaraniumSharp.Shenfield.Collections.ObservableDictionary`2.Values
+  isSpec: "True"
+  fullName: VaraniumSharp.Shenfield.Collections.ObservableDictionary<TKey, TValue>.Values
+  fullName.vb: VaraniumSharp.Shenfield.Collections.ObservableDictionary(Of TKey, TValue).Values
+  nameWithType: ObservableDictionary<TKey, TValue>.Values
+  nameWithType.vb: ObservableDictionary(Of TKey, TValue).Values
 - uid: VaraniumSharp.Shenfield.Converters
   name: VaraniumSharp.Shenfield.Converters
   href: api/VaraniumSharp.Shenfield.Converters.html
