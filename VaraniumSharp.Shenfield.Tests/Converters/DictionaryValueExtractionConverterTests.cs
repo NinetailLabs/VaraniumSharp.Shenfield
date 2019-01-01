@@ -25,6 +25,72 @@ namespace VaraniumSharp.Shenfield.Tests.Converters
         }
 
         [Test]
+        public void IfCollectionDoesNotImplementIDictionaryTheBindingDoesNothing()
+        {
+            // arrange
+            var sut = new DictionaryIntValueExtractionConverter();
+
+            // act
+            var result = sut.Convert(new object[] { new List<string>(), 1 }, typeof(int), new object(), CultureInfo.InvariantCulture);
+
+            // assert
+            result.Should().Be(Binding.DoNothing);
+        }
+
+        [Test]
+        public void IfKeyCouldNotBeFoundInTheDictionaryTheBindingDoesNothing()
+        {
+            // arrange
+            const int expectedKey = 2;
+            const string expectedValue = "This one";
+            var sut = new DictionaryIntValueExtractionConverter();
+            var dictionary = new Dictionary<int, string>
+            {
+                { 1, "Not this one" },
+                { expectedKey, expectedValue }
+            };
+
+            // act
+            var result = sut.Convert(new object[] { dictionary, 12 }, typeof(int), string.Empty, CultureInfo.InvariantCulture);
+
+            // assert
+            result.Should().Be(Binding.DoNothing);
+        }
+
+        [Test]
+        public void IfKeyIsNullTheBindingShouldDoNothing()
+        {
+            // arrange
+            const int expectedKey = 2;
+            const string expectedValue = "This one";
+            var sut = new DictionaryIntValueExtractionConverter();
+            var dictionary = new Dictionary<int, string>
+            {
+                { 1, "Not this one" },
+                { expectedKey, expectedValue }
+            };
+
+            // act
+            var result = sut.Convert(new object[] { dictionary, null }, typeof(int), string.Empty, CultureInfo.InvariantCulture);
+
+            // assert
+            result.Should().Be(Binding.DoNothing);
+        }
+
+        [Test]
+        public void IfThereAreNotEnoughParametersTheBindingDoesNothing()
+        {
+            // arrange
+            var sut = new DictionaryIntValueExtractionConverter();
+
+            // act
+            var result = sut.Convert(new object[] { new Dictionary<int, string>() }, typeof(int), new object(), CultureInfo.InvariantCulture);
+
+            // assert
+            result.Should().Be(Binding.DoNothing);
+        }
+
+        [Test]
         public void ValueIsCorrectlyExtractedFromIntKeyedDictionary()
         {
             // arrange
@@ -42,32 +108,6 @@ namespace VaraniumSharp.Shenfield.Tests.Converters
 
             // assert
             result.Should().Be(expectedValue);
-        }
-
-        [Test]
-        public void IfThereAreNotEnoughParametersTheBindingDoesNothing()
-        {
-            // arrange
-            var sut = new DictionaryIntValueExtractionConverter();
-
-            // act
-            var result = sut.Convert(new object[] { new Dictionary<int, string>() }, typeof(int), new object(), CultureInfo.InvariantCulture);
-
-            // assert
-            result.Should().Be(Binding.DoNothing);
-        }
-
-        [Test]
-        public void IfCollectionDoesNotImplementIDictionaryTheBindingDoesNothing()
-        {
-            // arrange
-            var sut = new DictionaryIntValueExtractionConverter();
-
-            // act
-            var result = sut.Convert(new object[] { new List<string>(), 1 }, typeof(int), new object(), CultureInfo.InvariantCulture);
-
-            // assert
-            result.Should().Be(Binding.DoNothing);
         }
 
         [Test]
