@@ -22,7 +22,9 @@ namespace VaraniumSharp.Shenfield.Converters
         /// <inheritdoc />
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
         {
-            if (values == null || values.Length != 2)
+            if (values == null
+                || values.Length != 2
+                || values[1] == null)
             {
                 return Binding.DoNothing;
             }
@@ -31,12 +33,14 @@ namespace VaraniumSharp.Shenfield.Converters
                 .GetConverter(typeof(T))
                 .ConvertFromString(values[1].ToString());
 
-            if (!(values[0] is IDictionary dict) || parsedKey == null)
+            if (!(values[0] is IDictionary dict)
+                || parsedKey == null)
             {
                 return Binding.DoNothing;
             }
 
-            return dict[parsedKey];
+            var dictionaryValue = dict[parsedKey];
+            return dictionaryValue ?? Binding.DoNothing;
         }
 
         /// <inheritdoc />
