@@ -29,8 +29,13 @@ namespace VaraniumSharp.Shenfield.Converters
                 return Binding.DoNothing;
             }
 
-            var parsedKey = (T)TypeDescriptor
-                .GetConverter(typeof(T))
+            var converter = TypeDescriptor.GetConverter(typeof(T));
+            if (!converter.IsValid(values[1].ToString()))
+            {
+                return Binding.DoNothing;
+            }
+
+            var parsedKey = (T)converter
                 .ConvertFromString(values[1].ToString());
 
             if (!(values[0] is IDictionary dict)

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Windows;
 using System.Windows.Data;
 using FluentAssertions;
 using NUnit.Framework;
@@ -11,6 +12,19 @@ namespace VaraniumSharp.Shenfield.Tests.Converters
     public class DictionaryValueExtractionConverterTests
     {
         #region Public Methods
+
+        // Issue 11 - Crash due to DependencyProperty.Unset
+        [Test]
+        public void AttemptingToConvertDependencyPropertyUnsetValueShouldNotThrowAnException()
+        {
+            // arrange
+            var sut = new DictionaryIntValueExtractionConverter();
+            var act = new Action(() => sut.Convert(new []{ new List<string>(), DependencyProperty.UnsetValue }, typeof(int), new object(), CultureInfo.InvariantCulture));
+
+            // act
+            // assert
+            act.ShouldNotThrow<Exception>();
+        }
 
         [Test]
         public void ConvertBackThrowANotImplementedException()
