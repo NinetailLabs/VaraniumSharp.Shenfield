@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.Collections.ObservableDictionary-2.html",
-          "hash": "uvvM8CFBVuhU+mmEG7UJ3w=="
+          "hash": "OnVY8oQIs71df4uS2Cq0EA=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.Collections.html",
-          "hash": "XeGVr1ovvrKq1AaBTVluNA=="
+          "hash": "/hRPWgA7+bhQFFEatuipWg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.Converters.DictionaryIntValueExtractionConverter.html",
-          "hash": "vkReYxpsmYgxah9+lDsgHQ=="
+          "hash": "Q7RLJeOa3CQy+81f5xfxHw=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.Converters.DictionaryStringValueExtractionConverter.html",
-          "hash": "dFnso8t6YAvjX0N1cm4qsA=="
+          "hash": "ASjwwqWMDKLbSG4vWh3GjA=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.Converters.DictionaryValueExtractionConverterBase-1.html",
-          "hash": "7BRt9pZnbUd/GHiWOyRs0g=="
+          "hash": "veFjHfQImfiRKnETCLfg2w=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.Converters.html",
-          "hash": "GCuj08OTOAjn9UX1vHo94w=="
+          "hash": "+LANFlM7qtwTVW1gcHDkgg=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.ExtensionMethods.ContextMenuExtensions.html",
-          "hash": "f/Xztsmip6Vjg9LIFFPLFg=="
+          "hash": "070iQcTuikuqQMPeT3AxJA=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.ExtensionMethods.html",
-          "hash": "xNF3k6khyw17yb52i3Foiw=="
+          "hash": "gSr258po6XnpxpJ7OafKRA=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.HelperClasses.StyleLoader.html",
-          "hash": "KhqzhsnGt/8y340PF+cTlw=="
+          "hash": "k6mr040D6kPcgXvucO9iqA=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.HelperClasses.html",
-          "hash": "/N5JOrpJq5VHSyNS4LK2Ag=="
+          "hash": "ny3JDQV/AQrJI6x36IQfbw=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.Interfaces.HelperClasses.IStyleLoader.html",
-          "hash": "ltsMmWssTF1ylJ89rKMhyg=="
+          "hash": "575d2XRA9yj5eCFKlfvj3A=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.Interfaces.HelperClasses.html",
-          "hash": "fDjvIcRAg5VaqH0Zc6S2Tw=="
+          "hash": "SyvHWuB47Rk0jCRJ2E872Q=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.RelayCommand.html",
-          "hash": "2GmGEsaHex69guqu+hFv9Q=="
+          "hash": "apEU0MC0pkMjus4vmDU6eA=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Shenfield.html",
-          "hash": "O9UpV17qnh6tVhRHdz/Thw=="
+          "hash": "X32NJ7z+Qw1op+BFVw6OsA=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "krmjkB7ysvy67f/1Gcta/A=="
+          "hash": "9yrmI+jJxo+C0E9b7lHyZQ=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "go/XnqOOqV+kQNbR7gdM+Q=="
+          "hash": "KIUKW57yfneqJR45d8i1AA=="
         }
       },
       "is_incremental": false,
@@ -239,7 +239,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "EqShxkNh9qNWMaYCI9JeNQ=="
+          "hash": "zuCamopTe3u3nJORPQKRAw=="
         }
       },
       "is_incremental": false,
@@ -263,26 +263,37 @@
       "status": {
         "can_incremental": false,
         "details": "Cannot build incrementally because last build info is missing.",
-        "incrementalPhase": "build"
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 14,
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },
@@ -290,7 +301,9 @@
       "status": {
         "can_incremental": false,
         "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
-        "incrementalPhase": "postProcessing"
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {}
     }
